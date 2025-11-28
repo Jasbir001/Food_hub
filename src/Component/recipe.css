@@ -1,0 +1,133 @@
+/* Main layout */
+.main-container {
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 25px;
+}
+
+/* Top section */
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Button styling */
+.load-btn {
+  background:#f09819;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.load-btn:hover {
+  color:black;
+  font-weight: bold;
+}
+
+
+.recipe-title{
+    font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Grid layout */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.recipe-card {
+  background: white;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Image */
+.recipe-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Text */
+.meal-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #111;
+}
+
+.meal-category {
+  font-size: 15px;
+  color: #444;
+  margin: 5px 0 10px;
+}
+
+.meal-category span {
+  font-weight: bold;
+}
+
+.meal-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* YouTube link */
+.yt-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.yt-link:hover {
+  text-decoration: underline;
+}
+
+/* Ingredients */
+.ingredient-title {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.ingredient-list {
+  margin-top: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.ingredient-item {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.measure {
+  font-weight: bold;
+  color: #16a34a;
+}
