@@ -29,9 +29,9 @@ const Footer= ()=>{
             <p> foodhub@contact.com</p>
         </div>
   </div>
-  {/* <div className="footer-all"> */}
+ 
     <p>@2015 FoodHub. All rights reserved.</p>
-  {/* </div> */}
+
 </footer>
 
         </>

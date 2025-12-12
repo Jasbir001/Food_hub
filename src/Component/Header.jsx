@@ -13,7 +13,7 @@ function Header(){
     <>
     <nav className="navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid navbar">
-                <a className="navbar-brand" href="#">Food Hub</a>
+                <h4 className="navbar-brand" >Food Hub</h4>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span className="navbar-toggler-icon"></span>
                         </button>
