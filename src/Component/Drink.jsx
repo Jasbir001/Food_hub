@@ -7,6 +7,7 @@ const Drink = ()=>{
      
     return(
         <>
+    
     <Header/>
         <div className="card-main" >
         {
@@ -27,7 +28,6 @@ const Drink = ()=>{
         }
         </div><br />
     <Footer/>
-        
         </>
         
     )
